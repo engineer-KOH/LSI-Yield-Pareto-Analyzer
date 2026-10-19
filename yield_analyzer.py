@@ -24,7 +24,7 @@ except Exception:
 # 0. パス・ディレクトリ初期設定
 # ---------------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
-INPUT_DIR = Path(r"C:\Users\Owner\Documents\アスパーク\研修3_歩留まり集計\python\inputs")
+INPUT_DIR = BASE_DIR / "inputs"
 OUTPUT_DIR = BASE_DIR / "outputs"
 LOG_DIR = BASE_DIR / "logs"
 
