@@ -323,7 +323,7 @@ def create_powerpoint_report(df: pd.DataFrame, analysis: dict, trend_img: Path, 
     p.font.color.rgb = RGBColor(15, 23, 42)
 
     p2 = tf.add_paragraph()
-    p2.text = f"生成日時: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')} | 製造技術部・品質保証部"
+    p2.text = f"生成日時: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')} | 製造技術部・品質保証部（サンプル）"
     p2.font.size = Pt(18)
     p2.font.color.rgb = RGBColor(100, 116, 139)
 
